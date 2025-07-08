@@ -1,0 +1,104 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "create": "Crear",
+    "update": "Actualizar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "actions": "Acciones",
+    "required": "Requerido",
+    "optional": "Opcional",
+    "readOnly": "Solo Lectura"
+  },
+  "dashboard": {
+    "title": "Solicitudes de Permiso",
+    "createRequest": "Crear Solicitud",
+    "createFirstRequest": "Crear Tu Primera Solicitud",
+    "noRequests": "No hay solicitudes de permiso disponibles.",
+    "noFilteredRequests": "No se encontraron solicitudes de permiso que coincidan con los filtros actuales.",
+    "loadingRequests": "Cargando solicitudes de permiso..."
+  },
+  "summary": {
+    "totalRequests": "Total de Solicitudes",
+    "pending": "Pendientes",
+    "approved": "Aprobadas",
+    "rejected": "Rechazadas"
+  },
+  "filters": {
+    "allRequests": "Todas las solicitudes",
+    "sortByDate": "Ordenar por Fecha"
+  },
+  "table": {
+    "employee": "Empleado",
+    "leaveType": "Tipo de Permiso",
+    "dates": "Fechas",
+    "status": "Estado",
+    "reason": "Motivo",
+    "requested": "Solicitado",
+    "actions": "Acciones"
+  },
+  "leaveTypes": {
+    "vacation": "Vacaciones",
+    "sick": "Permiso por Enfermedad",
+    "personal": "Personal",
+    "maternity": "Maternidad",
+    "paternity": "Paternidad"
+  },
+  "status": {
+    "pending": "Pendiente",
+    "approved": "Aprobado",
+    "rejected": "Rechazado"
+  },
+  "createModal": {
+    "title": "Crear Solicitud de Permiso",
+    "subtitle": "Complete el formulario a continuación para enviar una nueva solicitud de permiso.",
+    "employeeName": "Nombre del Empleado",
+    "leaveType": "Tipo de Permiso",
+    "startDate": "Fecha de Inicio",
+    "endDate": "Fecha de Fin",
+    "reason": "Motivo",
+    "reasonPlaceholder": "Ingrese el motivo del permiso (opcional)",
+    "creating": "Creando...",
+    "createRequest": "Crear Solicitud"
+  },
+  "detailsModal": {
+    "title": "Detalles de la Solicitud de Permiso",
+    "requestId": "ID de Solicitud",
+    "requestedOn": "Solicitado el",
+    "employeeName": "Nombre del Empleado",
+    "leaveType": "Tipo de Permiso",
+    "startDate": "Fecha de Inicio",
+    "endDate": "Fecha de Fin",
+    "status": "Estado",
+    "reason": "Motivo",
+    "reasonPlaceholder": "Ingrese el motivo del permiso",
+    "editRequest": "Editar Solicitud",
+    "saving": "Guardando...",
+    "saveChanges": "Guardar Cambios"
+  },
+  "validation": {
+    "employeeNameRequired": "El nombre del empleado es requerido",
+    "startDateRequired": "La fecha de inicio es requerida",
+    "endDateRequired": "La fecha de fin es requerida",
+    "endDateAfterStart": "La fecha de fin debe ser posterior a la fecha de inicio"
+  },
+  "messages": {
+    "requestCreated": "Solicitud de permiso creada exitosamente",
+    "requestUpdated": "Solicitud de permiso actualizada exitosamente",
+    "requestApproved": "Solicitud de permiso aprobada exitosamente",
+    "requestRejected": "Solicitud de permiso rechazada exitosamente",
+    "createFailed": "Error al crear la solicitud",
+    "updateFailed": "Error al actualizar la solicitud",
+    "approveFailed": "Error al aprobar la solicitud",
+    "rejectFailed": "Error al rechazar la solicitud"
+  }
+}

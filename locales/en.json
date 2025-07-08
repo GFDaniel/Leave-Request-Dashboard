@@ -1,0 +1,104 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "edit": "Edit",
+    "delete": "Delete",
+    "approve": "Approve",
+    "reject": "Reject",
+    "create": "Create",
+    "update": "Update",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "actions": "Actions",
+    "required": "Required",
+    "optional": "Optional",
+    "readOnly": "Read Only"
+  },
+  "dashboard": {
+    "title": "Leave Requests",
+    "createRequest": "Create Request",
+    "createFirstRequest": "Create Your First Request",
+    "noRequests": "No leave requests available.",
+    "noFilteredRequests": "No leave requests found matching the current filters.",
+    "loadingRequests": "Loading leave requests..."
+  },
+  "summary": {
+    "totalRequests": "Total Requests",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected"
+  },
+  "filters": {
+    "allRequests": "All requests",
+    "sortByDate": "Sort by Date"
+  },
+  "table": {
+    "employee": "Employee",
+    "leaveType": "Leave Type",
+    "dates": "Dates",
+    "status": "Status",
+    "reason": "Reason",
+    "requested": "Requested",
+    "actions": "Actions"
+  },
+  "leaveTypes": {
+    "vacation": "Vacation",
+    "sick": "Sick Leave",
+    "personal": "Personal",
+    "maternity": "Maternity",
+    "paternity": "Paternity"
+  },
+  "status": {
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected"
+  },
+  "createModal": {
+    "title": "Create Leave Request",
+    "subtitle": "Fill out the form below to submit a new leave request.",
+    "employeeName": "Employee Name",
+    "leaveType": "Leave Type",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "reason": "Reason",
+    "reasonPlaceholder": "Enter reason for leave (optional)",
+    "creating": "Creating...",
+    "createRequest": "Create Request"
+  },
+  "detailsModal": {
+    "title": "Leave Request Details",
+    "requestId": "Request ID",
+    "requestedOn": "Requested on",
+    "employeeName": "Employee Name",
+    "leaveType": "Leave Type",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "status": "Status",
+    "reason": "Reason",
+    "reasonPlaceholder": "Enter reason for leave",
+    "editRequest": "Edit Request",
+    "saving": "Saving...",
+    "saveChanges": "Save Changes"
+  },
+  "validation": {
+    "employeeNameRequired": "Employee name is required",
+    "startDateRequired": "Start date is required",
+    "endDateRequired": "End date is required",
+    "endDateAfterStart": "End date must be after start date"
+  },
+  "messages": {
+    "requestCreated": "Leave request created successfully",
+    "requestUpdated": "Leave request updated successfully",
+    "requestApproved": "Leave request approved successfully",
+    "requestRejected": "Leave request rejected successfully",
+    "createFailed": "Failed to create request",
+    "updateFailed": "Failed to update request",
+    "approveFailed": "Failed to approve request",
+    "rejectFailed": "Failed to reject request"
+  }
+}
