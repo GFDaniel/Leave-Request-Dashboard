@@ -48,14 +48,6 @@ Leave Request Management System built with Next.js, React, and SAP UI5 Web Compo
 3. **Start the development server**
    \`\`\`bash
    npm run dev
-
-   # or
-
-   yarn dev
-
-   # or
-
-   pnpm dev
    \`\`\`
 
 4. **Open your browser**
