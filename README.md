@@ -1,108 +1,135 @@
 # Leave Request Dashboard
 
-## Tech Stack
+Leave Request Management System built with Next.js, React, and SAP UI5 Web Components.
 
-- **Framework**: Next.js 14 (latest stable)
-- **UI Library**: SAP UI5 Web Components for React (@ui5/webcomponents-react)
-- **Testing**: Vitest + React Testing Library
-- **Language**: TypeScript
+## 🚀 What Was Implemented
 
-## Installation & Setup
+### Core Features
 
-1. **Clone the repository**
+- **📋 Leave Request Management**: View, create, edit, approve, and reject employee leave requests
+- **🔍 Advanced Filtering**: Filter requests by status (Pending, Approved, Rejected) with tab-based navigation
+- **📊 Summary Dashboard**: Real-time statistics cards showing total, pending, approved, and rejected requests
+- **🌐 Internationalization**: Full i18n support with English and Spanish translations
+
+### Technical Implementation
+
+- **🎨 Modern UI**: SAP UI5 Web Components for enterprise-grade user experience
+- **📡 API Integration**: RESTful API integration with MockAPI for data persistence
+- **🎯 TypeScript**: Full type safety throughout the application
+
+### Key Components
+
+- **Dashboard**: Main interface with summary cards and filterable table
+- **Create Modal**: Form for submitting new leave requests with validation
+- **Details Modal**: View and edit existing requests with approval/rejection actions
+- **Filter Controls**: Tab-based status filtering with sorting capabilities
+- **Language Selector**: Dynamic language switching between English and Spanish
+
+## 🏃‍♂️ How to Run the Project
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn package manager
+
+### Installation & Setup
+
+1. **Clone and install dependencies**
    \`\`\`bash
    git clone <repository-url>
    cd leave-request-dashboard
-   \`\`\`
-
-2. **Install dependencies**
-   \`\`\`bash
    npm install
    \`\`\`
 
-3. **Run the development server**
+2. **Start the development server**
    \`\`\`bash
    npm run dev
    \`\`\`
 
-4. **Open your browser**
+3. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## Running Tests
+### Available Scripts
 
-### Run all tests
+- \`npm run dev\` - Start development server
+- \`npm run build\` - Build for production
+- \`npm run start\` - Start production server
+- \`npm run lint\` - Run ESLint
+
+## 🧪 How to Run the Tests
+
+### Test Commands
 
 \`\`\`bash
+
+# Run all tests once
+
 npm test
-\`\`\`
 
-### Run tests with UI
+# Run tests in watch mode (recommended for development)
 
-\`\`\`bash
+npm run test:watch
+
+# Run tests with interactive UI
+
 npm run test:ui
-\`\`\`
 
-### Run tests with coverage
+# Run tests with coverage report
 
-\`\`\`bash
 npm run test:coverage
 \`\`\`
 
 ### Test Coverage
 
-The test suite covers:
+The project includes comprehensive tests covering:
 
-- ✅ Filtering logic (LeaveRequestUtils)
-- ✅ Approval/rejection behavior (useLeaveRequests hook)
-- ✅ Component interactions (ActionButtons)
-- ✅ UI state management
-- ✅ Service layer functionality
+- ✅ **Service Layer**: API integration and data transformation
+- ✅ **Components**: User interactions and rendering
+- ✅ **Hooks**: Business logic and state management
+- ✅ **Utilities**: Helper functions and data processing
 
-## API Integration
+### Test Structure
 
-The application integrates with the mock API endpoint:
+\`\`\`
+**tests**/
+├── components/ # Component tests
+├── hooks/ # Custom hook tests
+├── services/ # API service tests
+├── utils/ # Utility function tests
+└── setup.test.ts # Test environment verification
+\`\`\`
 
-- **Base URL**: `https://67f551e6913986b16fa426fd.mockapi.io/api/v1/`
-- **Endpoint**: `/leave-requests`
-- **Fallback**: Local mock data if API is unavailable
+### Development Workflow
 
-## Key Features Implementation
+\`\`\`bash
 
-### Filtering by Status
+# Terminal 1: Development server
 
-- Uses SAP UI5 Select component
-- Real-time filtering without API calls
-- Maintains filter state across interactions
+npm run dev
 
-### Sorting by Date
+# Terminal 2: Tests in watch mode
 
-- Toggle between ascending/descending order
-- Visual indicators for current sort direction
-- Sorts by date requested field
+npm run test:watch
+\`\`\`
 
-### Approve/Reject Actions
+## 🎨 SAP UI5 Components Used
 
-- Only available for pending requests
-- Optimistic UI updates
-- Error handling with user feedback
+### Core UI Components
 
-### Responsive Design
+- **\`Button\`** - Primary actions (Create, Approve, Reject, Save, Cancel)
+- **\`Input\`** - Text input fields for employee names and reasons
+- **\`Title\`** - Page and section headings
+- **\`MessageStrip\`** - Error messages and notifications
 
-- Mobile-friendly table layout
-- Flexible filter controls
-- Accessible UI components
+### Form & Navigation
 
-## Development Notes
+- **Native HTML Elements** - Date inputs, select dropdowns, and textareas
+- **Custom Tab Navigation** - Status filtering with active state indicators
+- **Modal Dialogs** - Create and edit request forms with backdrop
 
-- The application uses mock data as fallback when the API is unavailable
-- All components are fully typed with TypeScript
-- Error boundaries handle API failures gracefully
-- The service layer abstracts data operations for easy testing
+### Data Display
 
-## Future Enhancements
-
-- Add pagination for large datasets
-- Implement real-time updates with WebSocket
-- Add bulk actions for multiple requests
-- Include date range filtering
-- Add export functionality
+- **HTML Table** - Main data grid with responsive design
+- **Status Badges** - Color-coded status indicators
+- **Summary Cards** - Dashboard statistics with trend indicators
+- **Avatar Circles** - Employee initials display
