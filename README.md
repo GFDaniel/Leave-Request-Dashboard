@@ -43,14 +43,6 @@ Leave Request Management System built with Next.js, React, and SAP UI5 Web Compo
 2. **Install dependencies**
    \`\`\`bash
    npm install
-
-   # or
-
-   yarn install
-
-   # or
-
-   pnpm install
    \`\`\`
 
 3. **Start the development server**
