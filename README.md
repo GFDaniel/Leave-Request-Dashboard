@@ -34,19 +34,39 @@ Leave Request Management System built with Next.js, React, and SAP UI5 Web Compo
 
 ### Installation & Setup
 
-1. **Clone and install dependencies**
+1. **Clone the repository**
    \`\`\`bash
-   git clone <repository-url>
-   cd leave-request-dashboard
-   npm install
+   git clone https://github.com/GFDaniel/Leave-Request-Dashboard.git
+   cd Leave-Request-Dashboard
    \`\`\`
 
-2. **Start the development server**
+2. **Install dependencies**
+   \`\`\`bash
+   npm install
+
+   # or
+
+   yarn install
+
+   # or
+
+   pnpm install
+   \`\`\`
+
+3. **Start the development server**
    \`\`\`bash
    npm run dev
+
+   # or
+
+   yarn dev
+
+   # or
+
+   pnpm dev
    \`\`\`
 
-3. **Open your browser**
+4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
 ### Available Scripts
@@ -87,21 +107,6 @@ The project includes comprehensive tests covering:
 - ✅ **Components**: User interactions and rendering
 - ✅ **Hooks**: Business logic and state management
 - ✅ **Utilities**: Helper functions and data processing
-
-### Test Structure
-
-\`\`\`
-**tests**/
-├── components/ # Component tests
-├── hooks/ # Custom hook tests
-├── services/ # API service tests
-├── utils/ # Utility function tests
-└── setup.test.ts # Test environment verification
-\`\`\`
-
-### Development Workflow
-
-\`\`\`bash
 
 # Terminal 1: Development server
 
